@@ -25,7 +25,7 @@ public class SeleniumWaitDemo {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
-        //implicit wait
+        //implicit wait to be used
         WebDriver.Timeouts timeouts = driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://google.com");
 
