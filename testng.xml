@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="3">
+    <test name = "TestOnChrome">
+
+
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="MyName" value="Reena"/>
+
+        <groups>
+
+            <define name="Regression1">
+                <include name="regression"/>
+                <include name="smoke"/>
+            </define>
+            <run>
+                <include name="sanity"/>
+                <include name="AllClasstests"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.example.TestNGParametersDemo"/>
+            <class name="org.example.TestNGGroupsDemo"/>
+            <class name="org.example.TestNgMultiBrowserDemo"/>
+            <class name="listeners.IAnnotationTransformerWithExample">
+                <methods>
+                    <include name="changeInvocationCountOfMethod"/>
+                </methods>
+            </class>
+            <class name="listeners.TestNgListenersDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="org.example.TestNgPriorityDemo">
+                <methods><include name="one"/>
+                    <include name="two"/>
+                    <include name="three"/>
+                </methods>
+            </class>
+            <class name="util.ExcelDataProvider">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name = "TestOnFirefox">
+
+        <parameter name="browserName" value="Firefox"/>
+        <classes>
+            <class name="org.example.TestNgMultiBrowserDemo"/>
+            <class name="listeners.IAnnotationTransformerWithExample">
+                <methods>
+                    <include name="changeInvocationCountOfMethod"/>
+                </methods>
+            </class>
+            <class name="listeners.TestNgListenersDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="org.example.TestNgPriorityDemo">
+                <methods><include name="one"/>
+                    <include name="two"/>
+                    <include name="three"/>
+                </methods>
+            </class>
+            <class name="util.ExcelDataProvider">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+
+    <test name = "TestOnSafari">
+        <parameter name="browserName" value="Safari"/>
+        <classes>
+            <class name="org.example.TestNgMultiBrowserDemo"/>
+            <class name="listeners.IAnnotationTransformerWithExample">
+                <methods>
+                    <include name="changeInvocationCountOfMethod"/>
+                </methods>
+            </class>
+            <class name="listeners.TestNgListenersDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="org.example.TestNgPriorityDemo">
+                <methods><include name="one"/>
+                    <include name="two"/>
+                    <include name="three"/>
+                </methods>
+            </class>
+            <class name="util.ExcelDataProvider">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

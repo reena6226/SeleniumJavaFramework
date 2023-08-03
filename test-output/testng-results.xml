@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-24T13:24:08 IST" name="All Test Suite" finished-at="2023-07-24T13:24:23 IST" duration-ms="15132">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T13:24:08 IST" name="/Users/pmgirish/IdeaProjects/DemoTwo" finished-at="2023-07-24T13:24:23 IST" duration-ms="15132">
+      <class name="ExtentReportTestNGDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ExtentReportTestNGDemo@15aab8c6]" started-at="2023-07-24T13:24:07 IST" name="setUp" finished-at="2023-07-24T13:24:08 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:ExtentReportTestNGDemo@15aab8c6]" started-at="2023-07-24T13:24:08 IST" name="BeforeTest" finished-at="2023-07-24T13:24:13 IST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test()[pri:0, instance:ExtentReportTestNGDemo@15aab8c6]" started-at="2023-07-24T13:24:18 IST" name="test" finished-at="2023-07-24T13:24:20 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test2()[pri:0, instance:ExtentReportTestNGDemo@15aab8c6]" started-at="2023-07-24T13:24:20 IST" name="test2" finished-at="2023-07-24T13:24:23 IST" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:ExtentReportTestNGDemo@15aab8c6]" started-at="2023-07-24T13:24:23 IST" name="afterTest" finished-at="2023-07-24T13:24:23 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ExtentReportTestNGDemo@15aab8c6]" started-at="2023-07-24T13:24:28 IST" name="tearDown" finished-at="2023-07-24T13:24:29 IST" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ExtentReportTestNGDemo -->
+      <class name="GoogleSearchTestNGDemo">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:GoogleSearchTestNGDemo@20f5239f]" started-at="2023-07-24T13:24:13 IST" name="setUpTest" finished-at="2023-07-24T13:24:16 IST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="googleSearchTest()[pri:0, instance:GoogleSearchTestNGDemo@20f5239f]" started-at="2023-07-24T13:24:16 IST" name="googleSearchTest" finished-at="2023-07-24T13:24:18 IST" duration-ms="1966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GoogleSearchTestNGDemo@20f5239f]" started-at="2023-07-24T13:24:23 IST" name="tearDown" finished-at="2023-07-24T13:24:23 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GoogleSearchTestNGDemo -->
+    </test> <!-- /Users/pmgirish/IdeaProjects/DemoTwo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
