@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build'
-                emailext body: 'Build success', subject: 'Jenkins Build', to: 'reena6226@gmail.com'
+                
             }
         }
         stage('Deploy') {
@@ -16,6 +16,7 @@ pipeline {
          stage('Test') {
             steps {
                 echo 'Testing'
+                emailext body: 'Build success', subject: 'Jenkins Build', to: 'reena6226@gmail.com'
             }
         }
     }
